@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url(font/Worksans.woff2);
+
+}
+body{
+    font-family:'Work Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+.menu-nav li{
+    list-style: none;
+    padding: 0 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+img {
+    height: 50vh;
+}
